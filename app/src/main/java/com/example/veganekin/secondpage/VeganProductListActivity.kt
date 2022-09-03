@@ -1,15 +1,18 @@
-package com.example.veganekin
+package com.example.veganekin.secondpage
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
+import com.example.veganekin.R
 
 class VeganProductListActivity : AppCompatActivity() {
     private lateinit var rv : RecyclerView
+
     private lateinit var veganEntertainmentList:ArrayList<VeganProduct>
     private lateinit var veganProductList:ArrayList<VeganProduct>
-    private lateinit var adapter:VeganProductListAdapter
+    private lateinit var veganJustList:ArrayList<VeganProduct>
+    private lateinit var adapter: VeganProductListAdapter
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,6 +26,13 @@ class VeganProductListActivity : AppCompatActivity() {
         rv = findViewById(R.id.rv)
         rv.setHasFixedSize(true)
         rv.layoutManager = StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL)
+
+
+
+        val vegJust1 = VeganProduct("sadece patates değil",1)
+        val vegJust2 = VeganProduct("sadece yeşil mercimek değil",2)
+        val vegJust3 = VeganProduct("sadece tofu değil",3)
+        val vegJust4 = VeganProduct("sadece nohut değil",4)
 
         val vegEnt1 = VeganProduct("vegan yaşamı kolaylaştıracak mobil uygulamalar", 1)
         val vegEnt2 = VeganProduct("vegan yaşamı anlamak ve uygulamak için okuyabileceğiniz kitaplar", 2)
@@ -52,6 +62,12 @@ class VeganProductListActivity : AppCompatActivity() {
 
         veganEntertainmentList = ArrayList<VeganProduct>()
         veganProductList = ArrayList<VeganProduct>()
+        veganJustList = ArrayList<VeganProduct>()
+
+        veganJustList.add(vegJust1)
+        veganJustList.add(vegJust2)
+        veganJustList.add(vegJust3)
+        veganJustList.add(vegJust4)
 
         veganEntertainmentList.add(vegEnt1)
         veganEntertainmentList.add(vegEnt2)
@@ -77,14 +93,23 @@ class VeganProductListActivity : AppCompatActivity() {
         veganProductList.add(v15)
         veganProductList.add(v16)
 
+
+
+
         if (menuInfoNo.equals("1") ) {
             adapter = VeganProductListAdapter(this, veganProductList)
         }
+
+
         else if (menuInfoNo.equals("4")) {
             adapter = VeganProductListAdapter(this, veganEntertainmentList)
         }
+        else if(menuInfoNo.equals("8")) {
+            adapter = VeganProductListAdapter(this, veganJustList)
+        }
 
         rv.adapter = adapter
+
     }
     }
 

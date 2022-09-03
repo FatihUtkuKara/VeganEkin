@@ -1,14 +1,16 @@
-package com.example.veganekin
+package com.example.veganekin.firstpage
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
+import com.example.veganekin.R
 
 class MainActivity : AppCompatActivity() {
     private lateinit var rv2 : RecyclerView
     private lateinit var veganObjectsList:ArrayList<VeganObjects>
-    private lateinit var adapter:RvAdapter
+    private lateinit var adapter: RvAdapter
+
 
 
 
@@ -51,6 +53,7 @@ class MainActivity : AppCompatActivity() {
 
         adapter = RvAdapter(this,veganObjectsList)
         rv2.adapter = adapter
+        //game = EatTodayActivity(veganObjectsList)
 
 
 

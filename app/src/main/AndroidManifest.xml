@@ -12,18 +12,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.VeganEkin"
-        tools:targetApi="31">
+        tools:targetApi="30">
         <activity
-            android:name=".VeganProductListActivity"
+            android:name=".DetailsActivity"
             android:exported="false" />
         <activity
-            android:name=".VeganProductList"
+            android:name=".lastpage.VeganLastPageActivity"
             android:exported="false" />
         <activity
-            android:name=".DetailActivity"
+            android:name=".vegancalculator.VeganCalculator"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".whatwouldieat.EatTodayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".whatisveganism.WhatIsVeganismActivity"
+            android:exported="false" />
+        <activity
+            android:name=".secondpage.VeganSecondMenu2"
+            android:exported="false" />
+        <activity
+            android:name=".secondpage.VeganProductListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firstpage.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

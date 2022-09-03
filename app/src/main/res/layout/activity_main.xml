@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:textAlignment="center"
-    tools:context=".MainActivity">
+    tools:context=".firstpage.MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv2"
@@ -23,7 +23,7 @@
         android:layout_width="301dp"
         android:layout_height="94dp"
         android:layout_marginTop="40dp"
-        android:text="veganekin"
+        android:text="goVegan"
         android:textAlignment="center"
         android:textColor="#4F1964"
         android:textSize="48sp"
