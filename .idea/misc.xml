@@ -4,11 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/fatih/AndroidStudioProjects/VeganEkin/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.107" />
+        <entry key="..\:/Users/fatih/AndroidStudioProjects/VeganEkin/app/src/main/res/drawable/eat_today_button.xml" value="0.1" />
         <entry key="..\:/Users/fatih/AndroidStudioProjects/VeganEkin/app/src/main/res/drawable/gradient_background.xml" value="0.324" />
         <entry key="..\:/Users/fatih/AndroidStudioProjects/VeganEkin/app/src/main/res/drawable/ic_launcher_background.xml" value="0.107" />
         <entry key="..\:/Users/fatih/AndroidStudioProjects/VeganEkin/app/src/main/res/layout/activity_detail.xml" value="0.3625" />
         <entry key="..\:/Users/fatih/AndroidStudioProjects/VeganEkin/app/src/main/res/layout/activity_details.xml" value="0.25092592592592594" />
-        <entry key="..\:/Users/fatih/AndroidStudioProjects/VeganEkin/app/src/main/res/layout/activity_eat_today.xml" value="0.3625" />
+        <entry key="..\:/Users/fatih/AndroidStudioProjects/VeganEkin/app/src/main/res/layout/activity_eat_today.xml" value="0.22" />
         <entry key="..\:/Users/fatih/AndroidStudioProjects/VeganEkin/app/src/main/res/layout/activity_main.xml" value="0.2722371967654987" />
         <entry key="..\:/Users/fatih/AndroidStudioProjects/VeganEkin/app/src/main/res/layout/activity_vegan_calculator.xml" value="0.3625" />
         <entry key="..\:/Users/fatih/AndroidStudioProjects/VeganEkin/app/src/main/res/layout/activity_vegan_last_page.xml" value="0.33161953727506427" />

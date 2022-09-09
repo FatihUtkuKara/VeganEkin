@@ -27,22 +27,6 @@ class VeganProductListActivity : AppCompatActivity() {
         rv.setHasFixedSize(true)
         rv.layoutManager = StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL)
 
-
-
-        val vegJust1 = VeganProduct("sadece patates değil",1)
-        val vegJust2 = VeganProduct("sadece yeşil mercimek değil",2)
-        val vegJust3 = VeganProduct("sadece tofu değil",3)
-        val vegJust4 = VeganProduct("sadece nohut değil",4)
-
-        val vegEnt1 = VeganProduct("vegan yaşamı kolaylaştıracak mobil uygulamalar", 1)
-        val vegEnt2 = VeganProduct("vegan yaşamı anlamak ve uygulamak için okuyabileceğiniz kitaplar", 2)
-        val vegEnt3 = VeganProduct("hayvansal ürün tüketimini sorgulatacak belgesel ve filmler", 3)
-        val vegEnt4 = VeganProduct("veganlıkla ilgili içerik üreten youtube kanalları", 4)
-        val vegEnt5 = VeganProduct("veganlıkla ilgili içerik üreten instagram hesapları", 5)
-        val vegEnt6 = VeganProduct("internet siteleri", 6)
-
-
-
         val v1 = VeganProduct("vegan donmuş gıdalar ", 1)
         val v2 = VeganProduct("vegan kahvaltılıklar", 2)
         val v3 = VeganProduct("vegan et ürünleri", 3)
@@ -59,6 +43,24 @@ class VeganProductListActivity : AppCompatActivity() {
         val v14 = VeganProduct("vegan jelibonlar", 14)
         val v15 = VeganProduct("vegan yağlar", 15)
         val v16 = VeganProduct("vegan gofretler", 16)
+
+        val vegEnt1 = VeganProduct("vegan yaşamı kolaylaştıracak mobil uygulamalar", 68)
+        val vegEnt2 = VeganProduct("vegan yaşamı anlamak ve uygulamak için okuyabileceğiniz kitaplar", 69)
+        val vegEnt3 = VeganProduct("hayvansal ürün tüketimini sorgulatacak belgesel ve filmler", 70)
+        val vegEnt4 = VeganProduct("veganlıkla ilgili içerik üreten youtube kanalları", 71)
+        val vegEnt5 = VeganProduct("veganlıkla ilgili içerik üreten instagram hesapları", 72)
+        val vegEnt6 = VeganProduct("internet siteleri", 73)
+
+
+        val vegJust1 = VeganProduct("sadece patates değil",74)
+        val vegJust2 = VeganProduct("sadece yeşil mercimek değil",75)
+        val vegJust3 = VeganProduct("sadece tofu değil",76)
+        val vegJust4 = VeganProduct("sadece nohut değil",77)
+
+
+
+
+
 
         veganEntertainmentList = ArrayList<VeganProduct>()
         veganProductList = ArrayList<VeganProduct>()

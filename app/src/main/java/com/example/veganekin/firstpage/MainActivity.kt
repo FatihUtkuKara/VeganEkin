@@ -31,10 +31,7 @@ class MainActivity : AppCompatActivity() {
         val vm6 = VeganObjects("veganlık nedir?",6)
         val vm7 = VeganObjects("vegan calculator",7)
         val vm8 = VeganObjects("sadece ..... değil",8)
-        /*val vm9 = VeganObjects("vegan bisküviler",9)
-        val vm10 = VeganObjects("veganlıkla alakalı filmler",10)
-        val vm11 = VeganObjects("veganlıkla cipsler",11)
-        val vm12 = VeganObjects("vegan youtube kanalları",12) */
+
 
         veganObjectsList = ArrayList<VeganObjects>()
 
@@ -46,10 +43,7 @@ class MainActivity : AppCompatActivity() {
         veganObjectsList.add(vm6)
         veganObjectsList.add(vm7)
         veganObjectsList.add(vm8)
-     /*   veganObjectsList.add(vm9)
-        veganObjectsList.add(vm10)
-        veganObjectsList.add(vm11)
-        veganObjectsList.add(vm12) */
+
 
         adapter = RvAdapter(this,veganObjectsList)
         rv2.adapter = adapter

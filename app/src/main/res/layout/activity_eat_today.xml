@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:onClick="startGame2"
     tools:context=".whatwouldieat.EatTodayActivity">
 
     <TextView
         android:id="@+id/randomText"
-        android:layout_width="199dp"
-        android:layout_height="134dp"
+        android:layout_width="196dp"
+        android:layout_height="120dp"
         android:layout_marginStart="129dp"
         android:layout_marginTop="253dp"
         android:layout_marginEnd="130dp"
+        android:onClick="toRecipe"
         android:text="TextView"
         android:textAlignment="center"
         android:textColor="#9C27B0"
@@ -24,14 +24,29 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:id="@+id/StartButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/eat_today_button"
+
+        android:backgroundTint="@color/purple_200"
+
+        android:onClick="startButton"
+        android:text="Go"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/randomText" />
+
+    <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:onClick="startGame2"
+        android:backgroundTint="#E91E63"
         android:text="Button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/randomText" />
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="125dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
