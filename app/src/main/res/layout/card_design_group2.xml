@@ -9,23 +9,31 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/Cardgroup2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/lightgray"
+        app:cardCornerRadius="500dp"
+        android:layout_margin="8dp"
+        android:padding="1dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <TextView
+
+
                 android:id="@+id/textGroup2"
-                android:layout_width="143dp"
-                android:layout_height="51dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="176dp"
-                android:layout_marginTop="12dp"
                 android:layout_marginEnd="177dp"
                 android:text="TextView"
+                android:textAlignment="center"
+                android:textAllCaps="false"
                 android:textColor="#9C27B0"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.644"
+                app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
